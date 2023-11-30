@@ -1,2 +1,2 @@
 # better-code-js
-A repository that contains pieces of code used in wide amount of projects
+Documentation and other info available on https://ahmed-rajab-developer.flysyria.net/index.php/2023/11/30/better-code-js/

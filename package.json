@@ -7,13 +7,16 @@
     "test": "jest",
     "rollup": "rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yAeoUK/better-code-js.git"
   },
-  "author": "Ahmed Rajab",
+  "author": {
+    "name": "Ahmed Rajab"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yAeoUK/better-code-js/issues"
@@ -66,5 +69,7 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "readme": "ERROR: No README data found!",
+  "_id": "@yaeouk/better-code@1.0.11"
 }
