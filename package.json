@@ -1,6 +1,6 @@
 {
   "name": "@yaeouk/better-code",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A repository that contains pieces of code used in wide amount of projects",
   "main": "dist/cjs/index.js",
   "scripts": {
