@@ -1,6 +1,6 @@
 {
   "name": "@yaeouk/better-code",
-  "version": "1.1.",
+  "version": "1.1.0",
   "description": "A repository that contains pieces of code used in wide amount of projects",
   "main": "dist/cjs/index.js",
   "scripts": {
@@ -72,5 +72,5 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "readme": "ERROR: No README data found!",
-  "_id": "@yaeouk/better-code@1.1."
+  "_id": "@yaeouk/better-code@1.1.0"
 }
