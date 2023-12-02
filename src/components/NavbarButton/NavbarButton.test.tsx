@@ -3,18 +3,18 @@ import { render } from "@testing-library/react";
 import { faker } from '@faker-js/faker';
 import "@testing-library/jest-dom";
 
-import MenuItem from "./MenuItem";
+import NavbarButton from "./NavbarButton";
 
 
-describe("Menu Item rendering", () => {
-    test("renders the Menu Item component", () => {
-        render(<MenuItem />)
+describe("Navbar Button rendering", () => {
+    test("renders the Navbar Button component", () => {
+        render(<NavbarButton />)
     });
 
     test("check if text exists", () => {
         let randomString = faker.string.alpha()
         console.log(`random string: ${randomString}`)
-        const { getByText } = render(<MenuItem title={randomString} />)
+        const { getByText } = render(<NavbarButton>{randomString}</NavbarButton>)
         expect(getByText(randomString))
     })
 });

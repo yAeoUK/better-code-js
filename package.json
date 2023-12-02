@@ -1,6 +1,6 @@
 {
   "name": "@yaeouk/better-code",
-  "version": "1.0.12",
+  "version": "1.1.",
   "description": "A repository that contains pieces of code used in wide amount of projects",
   "main": "dist/cjs/index.js",
   "scripts": {
@@ -48,6 +48,7 @@
     "chromatic": "^9.1.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^4.6.0",
@@ -71,5 +72,5 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "readme": "ERROR: No README data found!",
-  "_id": "@yaeouk/better-code@1.0.11"
+  "_id": "@yaeouk/better-code@1.1."
 }

@@ -3,7 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import postcss from 'rollup-plugin-postcss'
 import dts from "rollup-plugin-dts";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 import packageJson from "./package.json" assert{type: 'json'}
@@ -27,7 +27,7 @@ export default [
             peerDepsExternal(),
             resolve(),
             commonjs(),
-            typescript({ tsconfig: "./tsconfig.json" }),
+            typescript({ tsconfig: "./tsconfig.json", exclude: ["**/*.test.*", "./src/**/*.mdx", "./src/stories/**", "./src/**/*.stories.@(js|jsx|mjs|ts|tsx)"] }),
             postcss(),
             terser()
         ],
